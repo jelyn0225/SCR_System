@@ -44,7 +44,7 @@ a:hover {
 }
 .left {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(141, 52, 126, 0.993)),
-    url("photos/univBG.jpg");
+    url("../photos/univBG.jpg");
   background-size: cover;
 }
 .left .copy {
