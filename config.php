@@ -8,4 +8,4 @@
 	if($conn->connect_error){
 		echo "Failed:" . $conn->connect_error;
 	}
-?>
+?>a
