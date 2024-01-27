@@ -12,57 +12,71 @@
                 <nav class="navbar">
                 <h1>Student Course Registration</h1>
                 <ul>
-                <li><a href="profile.html">Student Profile</a></li>
-                <li><a href="forms.html">Registration Course</a></li>
-                <li><a href="history.html">Registration History</a></li>
+                        <li><a href="profile.html">Student Profile</a></li>
+                        <li><a href="forms.html">Registration Course</a></li>
+                        <li><a href="history.html">Registration History</a></li>
                 </ul>
                 </nav>
         </header>
+<div class="container">
+        <div class="form">
 
-            <div>
+                <div class="input">
                 <label for="Name">Fullname: </label>
-                <input type="text" name ="Full Name" id="studint" disabled>
-            
-            
+                <input type="text" name ="Full Name" id="studint" >
+                </div>
+
+                <div class="input">
                 <label for="StudentID">StudentID: </label>
-                <input type="text" name ="stid" id="stid" disabled>
+                <input type="text" name ="stid" id="stid" >
+                </div>
 
+                <div class="input">
                 <label for="Course">Course:</label>
-                <input type="text" name ="course" id="course" disabled>
+                <input type="text" name ="course" id="course" >
+                </div>
 
+                <div class="input">
                 <label for="Email:">Email: </label>
-                <input type="text" name ="Email" id="Email" disabled>
-            
-                <label for="Student Type">Student Type: </label>
-                <input type="text" name ="Sttype" id="Sttype" disabled>
+                <input type="text" name ="Email" id="Email" >
+                </div>
 
+                <div class="input">
+                <label for="Student Type">Student Type: </label>
+                <input type="text" name ="Sttype" id="Sttype" >
+                </div>
+
+                <div class="input">
                 <label for=Level">Level: </label>
-                <input type="text" name ="lvl" id="lvl" disabled>
-                
+                <input type="text" name ="lvl" id="lvl" >
+                </div>
+
+                <div class="input">
                 <label for="School Year">School Year: </label>
-                <input type="text" name ="Sy" id="SY" disabled>
+                <input type="text" name ="Sy" id="SY" >
+                </div>
         </div>
 
-        
-<h1>Registration Course</h1>
-        <form action="files.php" method="get">
+<div class="course">
+        <h1>Registration Course</h1>
+
+        <div class="input">
         <label for="School Year"> School Year</label>
         <select>
         <option value="2023-2024"> 2023-2024</option>
         </select>
-        <br>
-        <br>
+        </div>
 
+        <div class="input">
         <label for="Student Type"> Student Type</label>
         <select>
         <option value="Freshman"> Freshman</option>
         <option value="Senior"> Senior</option>
         <option value="Transferee"> Transferee</option>
         </select>
+        </div>
 
-        <br>
-        <br>
-
+        <div class="input">
         <label for="Course"> Course</label>
         <select>
         <option value="Bachelor of Science in Information System"> Bachelor of Science in Information System</option>
@@ -71,34 +85,28 @@
         <option value="Bachelor of Science in Hospitality Management"> Bachelor of Science in Hospitality Management</option>
         <option value="Bachelor of Secondary Education"> Bachelor of Secondary Education</option>
         </select>
+        </div>
 
-<br>
-<br>
-
+        <div class="input">
         <label for="Level"> Level</label>
         <select>
         <option value="1st Year"> 1st Year</option>
         <option value="2nd Year"> 2nd Year</option>
         <option value="3rd Year"> 3rd Year</option>
         </select>
+        </div>
 
-        <br>
-        <br>
-
+        <div class="input">
         <label for="Semester"> Semester</label>
         <select>
         <option value="1st Semester"> 1st Semester</option>
         <option value="2nd Semester"> 2nd Semester</option>
         </select>
-
-        <br>
+        </div>
 
         <button class="register-btn" type="submit">Register</button>
-
-        <br>
-        <br>
-        
-</center>
+</div>
+</div>
         </form>
         </body>
         </html>
